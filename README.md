@@ -5,7 +5,9 @@ Acontece porque um desenvolve altera algo, mas não sabe pode ter afetado do lad
 
 Existem algumas coisas que pode ser feitas, para resolver este problema. Hoje vamos uma de algumas práticas que resolver este problema, a chamada pirâmide de testes. 
 
-***Testes Integração***: Busca testar como diferentes módulos (ou unidades) do sistema interagem entre si.
+***Testes End-2-End***: É maneira de realizar testes atravessando todas as camadas da arquitetura de um sistema.Porém, é mais caro.
+
+Mesmo sendo uma prática cara, vale pena realizar de este em algumas funcionalidades. Aqui vamos usar a lib [`Hound`](https://hexdocs.pm/hound/readme.html), uma alternativa do cypress. 
 
 
 To start your Phoenix server:
@@ -17,6 +19,16 @@ To start your Phoenix server:
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Configurar a lib Hound
+mix.ex
+
+`{:hound, "~> 1.0"}`
+
+test/test_helper.exs
+
+`Application.ensure_all_started(:hound)
+ExUnit.start()`
 
 ## Learn more
 
