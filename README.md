@@ -5,6 +5,8 @@ Acontece porque um desenvolve altera algo, mas não sabe pode ter afetado do lad
 
 Existem algumas coisas que pode ser feitas, para resolver este problema. Hoje vamos uma de algumas práticas que resolver este problema, a chamada pirâmide de testes. 
 
+***Testes Unitários***: São os testes da menor parte testável de uma aplicação. Usando o desenvolvimento orientado a testes (TDD).
+
 
 To start your Phoenix server:
 
