@@ -19,8 +19,8 @@ defmodule Ectestes.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {Ectestes.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      mod: {Ectestes.Application, [:httpoison]},
+      extra_applications: [:logger, :runtime_tools, :hound]
     ]
   end
 
@@ -48,7 +48,12 @@ defmodule Ectestes.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:httpoison, "~> 1.8"},
+      {:poison, "~> 4.0"},
+      {:json, "~> 1.4"},
+      {:mox, "~> 1.0", only: :test},
+      {:hound, "~> 1.0"}
     ]
   end
 

@@ -18,6 +18,10 @@ config :ectestes, EctestesWeb.Endpoint,
   pubsub_server: Ectestes.PubSub,
   live_view: [signing_salt: "N4UUdAuA"]
 
+config :ectestes, Ectestes.ServiceExternal.Client, adapter: Ectestes.ServiceExternal.HttpAdpater
+
+config :hound, driver: "chrome_driver", browser: "chrome_headless"
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails

@@ -18,6 +18,7 @@ defmodule EctestesWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/airport/:code", AirportController, :show
   end
 
   # Other scopes may use custom stacks.
