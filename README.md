@@ -1,3 +1,4 @@
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 # Pirâmide de Testes em Elixir
 
 **Cenário**: Imagine projeto que todas às vezes que são realizados ‘deploy’ para produção, todos ficam com medo de algo dar de errado. Por que isso acontece? 
@@ -25,3 +26,9 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Expert
+
+| [<img src="https://avatars.githubusercontent.com/u/57687300?s=400&u=79494f446d1fa4c328e4a7902ec790e9179a4889&v=4" width="75px;"/>](https://github.com/samantadearaujo") |
+| :-: |
+|[Sam](https://github.com/samantadearaujo)|
